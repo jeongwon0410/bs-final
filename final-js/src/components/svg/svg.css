@@ -1,0 +1,24 @@
+/* .container {
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Oak', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+} */
+
+.bg-fill-fill {
+  cursor: pointer;
+}
+.bg-fill {
+  cursor: pointer;
+  /* opacity: 0; */
+  fill: #000000;
+  transition: opacity 0.3s ease-in;
+}
+
+.balloon-word {
+  opacity: 0;
+}
+.bg-fill:hover {
+  /* opacity: 1; */
+  fill: #00c800;
+}
